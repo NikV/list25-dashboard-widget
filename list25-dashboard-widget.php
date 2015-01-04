@@ -55,11 +55,3 @@ Class List_25_Dashboard_Widget {
 			}
 }
 new List_25_Dashboard_Widget();
-
-
-
-
-
-
-
-
