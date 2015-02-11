@@ -12,7 +12,7 @@
 Class List_25_Dashboard_Widget {
 
 	public function __construct() {
-		add_action( 'wp_network_dashboard_setup', array( $this, 'list25_add_dashboard_widgets' ));
+		add_action( 'wp_dashboard_setup', array( $this, 'list25_add_dashboard_widgets' ));
 
 	}
 
