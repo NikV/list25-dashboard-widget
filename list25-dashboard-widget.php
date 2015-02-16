@@ -11,12 +11,11 @@
 
 Class List_25_Dashboard_Widget {
 
+	// Actions
 	public function __construct() {
 		add_action( 'wp_dashboard_setup', array( $this, 'list25_add_dashboard_widgets' ));
 
 	}
-
-
 
 	/**
 	 * Add a widget to the dashboard.
